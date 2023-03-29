@@ -10,14 +10,7 @@
          "NekoRobot"
       ],   
    "repository": "https://github.com/Hodacka/NekoRobot-3",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+   
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather",
@@ -175,5 +168,11 @@
          "value": ""
       }
       
-   }
+   },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+}
+}
 }
