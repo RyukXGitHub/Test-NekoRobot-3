@@ -32,7 +32,7 @@ zalgo-text
 geopy
 
 psutil
-aiohttp>=2.2.5
+aiohttp>=3.7.4
 Pillow>=4.2.0
 CurrencyConverter
 google_trans_new
